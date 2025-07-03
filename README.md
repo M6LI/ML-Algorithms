@@ -1,59 +1,44 @@
-# ML-Algorithms
-*A from‑scratch mini‑library of classical machine‑learning algorithms implemented in pure Python with **NumPy** for math and **Matplotlib** for visualisation.*
+# ML‑Algorithms
+
+*A personal portfolio project showcasing Python proficiency through from‑scratch implementations of classical machine‑learning algorithms. Only **NumPy** and **Matplotlib** are used for numerical work and visualisation.*
 
 ---
 
-## Table of Contents
+## Notebooks at a Glance
 
-1. [Implemented Algorithms](#implemented-algorithms)
-2. [Quick Start](#quick-start)
-3. [Repository Structure](#repository-structure)
-4. [Contributing](#contributing)
-5. [License](#license)
+| Algorithm                   | Notebook                                                       | What it demonstrates                                                       |
+| --------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Linear Regression           | [Linear\_Regression.ipynb](./Linear_Regression.ipynb)          | Closed‑form normal equation, batch gradient descent, synthetic data fit    |
+| Logistic Regression         | [Logistic\_Regression.ipynb](./Logistic_Regression.ipynb)      | Binary classification, cross‑entropy loss, decision boundary visualisation |
+| k‑Nearest Neighbours        | [kNN.ipynb](./kNN.ipynb)                                       | Lazy learning, distance metrics, effect of *k* on accuracy                 |
+| Feed‑forward Neural Network | [Deep Neural Networks.ipynb](./Deep%20Neural%20Networks.ipynb) | Multi‑layer perceptron built from scratch, back‑prop, mini‑batch SGD       |
 
----
-
-## Implemented Algorithms
-
-| Algorithm                        | Notebook                                                       | Highlights                                                                       |
-| -------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| Linear Regression                | [Linear\_Regression.ipynb](./Linear_Regression.ipynb)          | Normal‑equation & batch gradient descent solutions, synthetic data demo          |
-| Logistic Regression              | [Logistic\_Regression.ipynb](./Logistic_Regression.ipynb)      | Binary classification, cross‑entropy loss, decision boundary plot                |
-| k‑Nearest Neighbours             | [kNN.ipynb](./kNN.ipynb)                                       | Distance metrics, hyper‑parameter *k* sweep, toy 2‑D dataset                     |
-| Feed‑forward Deep Neural Network | [Deep Neural Networks.ipynb](./Deep%20Neural%20Networks.ipynb) | Multi‑layer perceptron built from first principles, mini‑batch SGD, ReLU/Softmax |
-
-> *More notebooks coming soon — feel free to open an issue or PR with suggestions!*
+*(Each notebook is fully self‑contained; no external datasets or helper libraries are required.)*
 
 ---
 
-## Quick Start
-
-### 1. Clone & set up an environment
+## Running the Notebooks
 
 ```bash
-# Clone the repo
+# 1. Clone the project
 git clone https://github.com/M6LI/ML-Algorithms.git
 cd ML-Algorithms
 
-# (Optional) create a virtual environment
+# 2. (Optional) create a virtual environment
 python -m venv .venv && source .venv/bin/activate
 
-# Install the only dependencies
-pip install --upgrade pip
+# 3. Install minimal dependencies
 pip install numpy matplotlib jupyter
-```
 
-### 2. Launch the notebooks
-
-```bash
+# 4. Fire up Jupyter
 jupyter notebook
 ```
 
-Open any notebook from the list above and run the cells top‑to‑bottom. Each notebook is **self‑contained** and generates its own synthetic data, so no external datasets are required.
+Run the cells top‑to‑bottom to see the algorithms learn in real‑time.
 
 ---
 
-## Repository Structure
+## Repository Layout
 
 ```text
 ML-Algorithms/
@@ -66,19 +51,10 @@ ML-Algorithms/
 
 ---
 
-## Contributing
-
-1. **Open an issue** describing the bug/improvement/algorithm you’d like to add.
-2. **Fork** the repo and create a feature branch.
-3. Keep the style simple & readable; run all cells to ensure the notebook executes without errors.
-4. **Submit a pull request** — feedback and collaboration are welcomed!
-
----
-
 ## License
 
-Released under the **MIT License**. Feel free to swap it for another OSI‑approved license if it better suits your needs.
+Released under the **MIT License**.
 
 ---
 
-*Happy learning / hacking!* 🚀
+> *Built for learning and demonstration — enjoy!* 🚀
