@@ -8,7 +8,7 @@
 
 | Algorithm                   | Notebook                                                       | What it demonstrates                                                       |
 | --------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Linear Regression           | [Linear\_Regression.ipynb](./Linear_Regression.ipynb)          | Closed‑form normal equation, batch gradient descent, synthetic data fit    |
+| Linear Regression           | [Linear\_Regression.ipynb](./Linear_Regression.ipynb)          | Closed‑form normal equation, RIDGE and LASSO regression, batch gradient descent, synthetic data fit    |
 | Logistic Regression         | [Logistic\_Regression.ipynb](./Logistic_Regression.ipynb)      | Binary classification, cross‑entropy loss, decision boundary visualisation |
 | k‑Nearest Neighbours        | [kNN.ipynb](./kNN.ipynb)                                       | Lazy learning, distance metrics, effect of *k* on accuracy                 |
 | Feed‑forward Neural Network | [Deep Neural Networks.ipynb](./Deep%20Neural%20Networks.ipynb) | Multi‑layer perceptron built from scratch, back‑prop, mini‑batch SGD       |
