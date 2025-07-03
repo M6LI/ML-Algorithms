@@ -57,4 +57,4 @@ Released under the **MIT License**.
 
 ---
 
-> *Built for learning and demonstration — enjoy!* 🚀
+> *Built for learning and demonstration!* 🚀
